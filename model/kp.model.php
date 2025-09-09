@@ -1,7 +1,7 @@
 <!-- MODEL KATALOG PERHIASAN -->
 
 <?php
-class KpModel
+class KpModel extends Connect
 {
     public function getKp()
     {

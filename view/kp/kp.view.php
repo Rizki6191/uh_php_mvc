@@ -2,7 +2,7 @@
 <?php
 class KpView
 {
-    public function showTable($tkp)
+    public function showTable($kp)
     {
         include 'view/kp/kp.view.table.php';
     }
