@@ -14,6 +14,12 @@ class KpModel extends Connect
         }
         return $kp;
     }
+
+    public function getKpById($id)
+    {
+        $get = $this->connect()->query("SELECT * FROM katalog_perhiasan WHERE id = $id");
+        return $get->fetch_assoc();
+    }
 }
 
 

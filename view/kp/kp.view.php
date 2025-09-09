@@ -6,4 +6,9 @@ class KpView
     {
         include 'view/kp/kp.view.table.php';
     }
+
+    public function showDetail($detailkp)
+    {
+        include 'view/kp/kp.view.detail.php';
+    }
 }
