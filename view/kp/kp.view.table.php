@@ -22,11 +22,11 @@
             <th>Nama Perhiasan</th>
             <th>Deskripsi</th>
         </tr>
-        <?php foreach ($kp as $kp): ?>
+        <?php foreach ($kp as $itemkp): ?>
             <tr>
-                <td><?php echo $kp['id'] ?></td>
-                <td><?php echo $kp['nama'] ?></td>
-                <td><?php echo $kp['deskripsi'] ?></td>
+                <td><?php echo $itemkp['id'] ?></td>
+                <td><?php echo $itemkp['nama'] ?></td>
+                <td><?php echo $itemkp['deskripsi'] ?></td>
             </tr>
         <?php endforeach; ?>
     </table>
